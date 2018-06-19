@@ -26,7 +26,7 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-image: url('https://i.imgur.com/LBLWYyH.png');
+    background-image: url('https://i.imgur.com/rumKQXt.png');
     min-height: 100%;
 }
 
@@ -38,7 +38,7 @@ body, html {
 
 /* Third image (Contact) */
 .bgimg-3 {
-    background-image: url("/w3images/parallax3.jpg");
+    background-image: url("http://dnpt4lt4gxlt9.cloudfront.net/uploads/2013/01/02131835/corp_adtran_adtran17.jpg");
     min-height: 400px;
 }
 
@@ -57,32 +57,25 @@ ul.bullet {
 }
 
 n {
-	color: white;
+	color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
-
 </style>
 <body>
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar" id="myNavbar">
-    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-      <i class="fa fa-bars"></i>
-    </a>
-    <n>
-    <a href="#home" class="w3-bar-item w3-button">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-    <a href="#education" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-book"></i> EDUCATION</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
-    </n>
-  </div>
-
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
-    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+	<div class="w3-bar" id="myNavbar">
+    	<a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      		<i class="fa fa-bars"></i>
+    	</a>
+    	<n>
+    		<a href="#home" class="w3-bar-item w3-button">HOME</a>
+    		<a href="#about" class="w3-bar-item w3-button"><i class="fa fa-user"></i> ABOUT</a>
+    		<a href="#education" class="w3-bar-item w3-button"><i class="fa fa-book"></i> EDUCATION</a>
+    		<a href="#work" class="w3-bar-item w3-button"><i class="fa fa-suitcase"></i> WORK</a>
+    		<a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    	</n>
   </div>
 </div>
 
@@ -95,84 +88,96 @@ n {
 
 <!-- Container (About Section) -->
 <div class="w3-content w3-container w3-padding-64" id="about">
-  <h3 class="w3-center">ABOUT ME</h3>
-  <p>Welcome to my portfolio! My name is Jacob Collins, I'm twenty years old and am a software engineering major enrolled at Mississippi State University. I'm currently a Junior and plan to graduate in May of 2020. I have a lot of passion and excitement for developing and am constantly trying to better my programming skills. </p>
-  
+	<h3 class="w3-center">ABOUT ME</h3>
+	<p>Welcome to my portfolio! My name is Jacob Collins, I'm twenty years old and am a software engineering major enrolled at Mississippi State University. I'm currently a Junior and plan to graduate in May of 2020. I have a lot of passion and excitement for developing and am constantly trying to better my programming skills. </p>
 </div>
-
 
 <!-- Second Parallax Image with Education Text -->
 <div class="bgimg-2 w3-display-container">
-  <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-white w3-wide">EDUCATION</span>
-  </div>
+	<div class="w3-display-middle">
+    	<span class="w3-xxlarge w3-text-white w3-wide">EDUCATION</span>
+	</div>
 </div>
 
 <!-- Container (Education Section) -->
 <div class="w3-content w3-container w3-padding-64" id="education">
  	<h3 class="w3-center">MY EDUCATION</h3>
     <div class="w3-row">
-    <div class="w3-col m6 w3-center w3-padding-large">
-      <img src="https://i.imgur.com/MvubfRm.jpg" class="w3-round w3-image" alt="Photo of Campus" width="500" height="333">
+	    <div class="w3-col m6 w3-center w3-padding-large">
+	    	<img src="https://i.imgur.com/MvubfRm.jpg" class="w3-round w3-image" alt="Photo of Campus" width="500" height="333">
+	    </div>
+	    <div class="w3-col m6 w3-padding-large">
+	    	<p><h7>Mississippi State University</h7></p>
+	    	<ul class="bullet">
+	  			<li>Starkville, Mississippi</li>
+	  			<li>Bachelor of Science in Software Engineering </li>
+	 		 	<li>3.84/4.00 GPA</li>
+	            <li>August 2015-May 2020</li>
+			</ul>
+	    </div>
     </div>
-    <div class="w3-col m6 w3-padding-large">
-      <p><h7>Mississippi State University</h7></p>
-      <ul class="bullet">
-  			<li>Starkville, Mississippi</li>
-  			<li>Bachelor of Science in Software Engineering </li>
- 		 	<li>3.84/4.00 GPA</li>
-            <li>August 2015-May 2020</li>
-		</ul>
+    <div class="w3-row">
+	    <div class="w3-col m6 w3-center w3-padding-large">
+	    	<img src="https://i.imgur.com/MvubfRm.jpg" class="w3-round w3-image" alt="Photo of Campus" width="500" height="333">
+	    </div>
+	    <div class="w3-col m6 w3-padding-large">
+	      	<p><h7>East Central High School</h7></p>
+	      	<ul class="bullet">
+	  			<li>Hurley, Mississippi</li>
+	  			<li>Graduated May 2015</li>
+			</ul>
+	    </div>
     </div>
-    </div>
-        <div class="w3-row">
-    <div class="w3-col m6 w3-center w3-padding-large">
-      <img src="https://i.imgur.com/MvubfRm.jpg" class="w3-round w3-image" alt="Photo of Campus" width="500" height="333">
-    </div>
-    <div class="w3-col m6 w3-padding-large">
-      <p><h7>East Central High School
-      </h7></p>
-      <ul class="bullet">
-  			<li>Hurley, Mississippi</li>
-  			<li>Graduated May 2015</li>
-		</ul>
-    </div>
-    </div>
-
 </div>
 
+<!-- Third Parallax Image with Work and Skills Text -->
+<div class="bgimg-3 w3-display-container">
+	<div class="w3-display-middle">
+    	<span class="w3-xxlarge w3-text-white w3-wide">WORK AND SKILLS</span>
+	</div>
+</div>
+
+<!-- Container (Work and Skills Section) -->
+<div class="w3-content w3-container w3-padding-64" id="work">
+ 	<h3 class="w3-center">MY WORK AND SKILLS</h3>
+    <div class="w3-row">
+	    <div class="w3-col m6 w3-center w3-padding-large">
+	    	<img src="https://i.pinimg.com/originals/10/01/18/100118eee52e95946b082afa3e84605c.jpg" class="w3-round w3-image" alt="Adtran" width="500" height="333">
+	    </div>
+	    <div class="w3-col m6 w3-padding-large">
+	    	<p><h7>Adtran Co-op</h7></p>
+	    	<p>1st Term<p>
 
 
+	    </div>
+    </div>
+</div>
 
 <!-- Container (Contact Section) -->
 <div class="w3-content w3-container w3-padding-64" id="contact">
-  <h3 class="w3-center">MY INFORMATION</h3>
-  <p class="w3-center"><em>I'd love to hear from you!</em></p>
+  	<h3 class="w3-center">MY INFORMATION</h3>
+  	<p class="w3-center"><em>I'd love to hear from you!</em></p>
 
-  <div class="w3-row w3-section w3-container">
-    <div class="w3-col m4 w3-container">
-    </div>
-    <div class="w3-col m8 w3-panel">
-      <div class="w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Huntsville, AL<br>
-        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Cellphone: 228.627.1414<br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: jacobmcolli@gmail.com<br>
-      </div>
-    </div>
-  </div>
+  	<div class="w3-row w3-section w3-container">
+    	<div class="w3-col m4 w3-container">
+    	</div>
+    	<div class="w3-col m8 w3-panel">
+     	 	<div class="w3-large w3-margin-bottom">
+       	 		<i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Huntsville, AL<br>
+        		<i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Cellphone: 228.627.1414<br>
+        		<i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: jacobmcolli@gmail.com<br>
+      		</div>
+    	</div>
+  	</div>
 </div>
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-64">
-  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <div class="w3-xlarge w3-section">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-  </div>
+	<a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+	<div class="w3-xlarge w3-section">
+    	<a href=https://www.facebook.com/jacob.collins.142?ref=bookmarks"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    	<a href="https://www.linkedin.com/in/jacob-collins-ba5a7b165/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+	</div>
 </footer>
 </body>
 </html>
